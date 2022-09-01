@@ -1,5 +1,5 @@
 const { createAuthorizationSignature, generateRandomLinkingKey } = require('../../lib');
-const { generatePaymentRequest } = require('lightning-backends');
+const { generatePaymentRequest } = require('../../lightning-backends-node');
 
 module.exports = {
 	create: {

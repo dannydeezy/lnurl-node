@@ -1,0 +1,4 @@
+[submodule "lightning-backends-node"]
+	path = lightning-backends-node
+	url = git@github.com:dannydeezy/lightning-backends-node.git
+	branch = add-bitfinex-backend

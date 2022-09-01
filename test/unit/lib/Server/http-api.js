@@ -3,7 +3,7 @@ const crypto = require('crypto');
 const { generateApiKey } = require('../../../../');
 const { createSignedUrl, prepareSignedQuery } = require('lnurl-offline');
 const { createAuthorizationSignature, createHash, generateRandomLinkingKey, promiseAllSeries } = require('../../../../lib');
-const { generatePaymentRequest, getTagDataFromPaymentRequest } = require('lightning-backends');
+const { generatePaymentRequest, getTagDataFromPaymentRequest } = require('../../../lightning-backends-node');
 
 const tagToLightningBackendMethod = {
 	'channelRequest': 'openChannel',
